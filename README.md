@@ -58,8 +58,7 @@ NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 
 📦 Installation & Development
 
-
-bash
+```env
 
 # 1. Clone the repository
 git clone https://github.com/your-username/AgroAI.git
