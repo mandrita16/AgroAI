@@ -71,10 +71,10 @@ pnpm install
 pnpm run dev
 Visit http://localhost:3000 to view the app in your browser.
 
+```
+
 🧩 Project Structure
-php
-Copy
-Edit
+
 app/
 ├── layout.tsx         # Root layout with metadata
 ├── page.tsx           # Main UI with map + input
