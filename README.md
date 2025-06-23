@@ -75,28 +75,8 @@ Visit http://localhost:3000 to view the app in your browser.
 
 🧩 Project Structure
 
-agri-ai-ui/
-├── app/
-│ ├── globals.css # Tailwind base styles
-│ ├── layout.tsx # Root layout & metadata
-│ └── page.tsx # Home page (Google Maps integration)
-├── components/ # Custom UI components
-│ └── three-d-background.tsx (missing)
-├── hooks/ # Custom React hooks
-│ ├── use-mobile.tsx
-│ └── use-toast.ts
-├── lib/ # Utility functions (if used)
-├── public/ # Public assets like favicon
-├── styles/ # Custom styles if any
-├── .gitignore
-├── components.json
-├── next-env.d.ts
-├── next.config.mjs
-├── package.json
-├── pnpm-lock.yaml
-├── postcss.config.mjs
-├── tailwind.config.mjs
-└── tsconfig.json
+![image](https://github.com/user-attachments/assets/b04122ff-817a-4e82-8b51-970f19c22b67)
+
 
 
 📤 Deployment
