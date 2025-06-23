@@ -1,8 +1,8 @@
-# AgroAI
+# AgroAI UI
 
-# 🌱 AgroAI — Soil Health & Fertility Analysis (Frontend)
+# 🌱 AgroAI UI — Soil Health & Fertility Analysis (Frontend)
 
- AgroAI is a modern web application that helps users **detect soil nutrient levels** and **determine fertility** based on their location. It visualizes the data and provides insights into which crops are most suitable for the selected region.
+ AgroAI UI is a modern web application that helps users **detect soil nutrient levels** and **determine fertility** based on their location. It visualizes the data and provides insights into which crops are most suitable for the selected region.
 
 This is the **frontend application**, developed using **Next.js** and **Tailwind CSS**, with built-in support for **Google Maps API** to select a location interactively.
 
