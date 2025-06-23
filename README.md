@@ -54,7 +54,7 @@ Create a `.env.local` file in the root of your project and add:
 
 ```env
 NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-
+```
 
 📦 Installation & Development
 
