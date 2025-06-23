@@ -75,15 +75,28 @@ Visit http://localhost:3000 to view the app in your browser.
 
 🧩 Project Structure
 
-app/
-├── layout.tsx         # Root layout with metadata
-├── page.tsx           # Main UI with map + input
-├── globals.css        # Tailwind CSS config
-components/
-├── Map.tsx            # Google Map integration
-public/
-├── favicon.ico        # Custom icon
-.env.local             # Environment variables
+agri-ai-ui/
+├── app/
+│ ├── globals.css # Tailwind base styles
+│ ├── layout.tsx # Root layout & metadata
+│ └── page.tsx # Home page (Google Maps integration)
+├── components/ # Custom UI components
+│ └── three-d-background.tsx (missing)
+├── hooks/ # Custom React hooks
+│ ├── use-mobile.tsx
+│ └── use-toast.ts
+├── lib/ # Utility functions (if used)
+├── public/ # Public assets like favicon
+├── styles/ # Custom styles if any
+├── .gitignore
+├── components.json
+├── next-env.d.ts
+├── next.config.mjs
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs
+├── tailwind.config.mjs
+└── tsconfig.json
 
 
 📤 Deployment
@@ -95,10 +108,9 @@ Netlify
 
 🌾 Example Use Case
 User selects their farm location on Google Maps.
+The app fetches soil data for that region (via backend and the ml model).
 
-The app fetches soil data for that region (via backend or local DB).
 
-Based on nutrients and thresholds, it displays:
 
 Soil fertility status (e.g., "Moderately Fertile")
 
